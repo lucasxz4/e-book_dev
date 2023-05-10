@@ -1,0 +1,11 @@
+@media screen and (max-width: 750px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 10px;
+    }
+    .p2 {
+        margin-bottom: 30px;
+    }
+}

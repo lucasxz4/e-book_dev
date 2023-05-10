@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torne-se um Desenvolvedor Web</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/media.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <aside class="left">
+        <div class="title">
+            <h1>Torne-se um <br> <span>Desenvolvedor Web</span></h1>
+        </div>
+        <div class="ilustre">
+            <picture>
+                <source media="(max-width: 750px)" srcset="image/mobile.png" type="image/png">
+                <img src="image/Web-Developer_Monochromatic.png" alt="">
+            </picture>
+        </div>
+        <div class="title2">
+            <p>Baixe o e-book e comece sua jornada.</p>
+            <p class="p2">Tire seus projetos do papel</p>
+        </div>
+    </aside>
+
+    <aside class="right">
+        <form action="#">
+            <div class="title-form">
+                <h2>INSIRA SEUS DADOS</h2>
+                <h4>E RECEBA O E-BOOK NO SEU E-MAIL</h4>
+            </div>
+            <div class="input-name" id="inputs">
+                <input type="text" name="name" id="iname" class="input" required>
+                <label for="iname">Nome Completo</label>
+            </div>
+            <div class="input-tel" id="inputs">
+                <input type="tel" name="tel" id="itel" class="input" maxlength="13" OnKeyPress="formatar('##-#####-####', this)" required>
+                <label for="itel">Telefone</label>
+            </div>
+            <div class="email" id="inputs">
+                <input type="email" name="email" id="iemail" class="input" required>
+                <label for="iemail">E-mail</label>
+            </div>
+
+            <div class="submit">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </aside>
+
+</body>
+</html>
